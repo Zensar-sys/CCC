@@ -1,0 +1,5 @@
+sudo useradd -m chaytali
+vi /etc/ssh/sshd - PasswordAuthentication to no 
+Switch to the user
+ssh-keygen
+ssh-copy-id <target ip>
